@@ -19,14 +19,13 @@ const HeroSection = () => {
           <div className="space-y-8 text-center lg:text-left">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                Arrêtez de fumer
-                <span className="block text-primary">en une séance</span>
-                <span className="block text-accent">avec la thérapie laser</span>
+                Libérez-vous de vos
+                <span className="block text-primary">addictions</span>
               </h1>
               
               <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto lg:mx-0">
-                Une méthode révolutionnaire, sans douleur et naturelle pour vous libérer 
-                définitivement du tabac et de l'alcool. Résultats immédiats garantis.
+                Votre nouvelle étape vers le bien-être. Situé au 12 Avenue de Verdun à Romainville, 
+                notre centre vous accueille dans un espace dédié à votre transformation.
               </p>
             </div>
 
@@ -53,8 +52,8 @@ const HeroSection = () => {
                 <div className="flex items-center justify-center mb-2">
                   <CheckCircle className="h-8 w-8 text-success" />
                 </div>
-                <p className="text-2xl font-bold text-foreground">98%</p>
-                <p className="text-sm text-muted-foreground">Taux de réussite</p>
+                <p className="text-2xl font-bold text-foreground">5.0</p>
+                <p className="text-sm text-muted-foreground">Note Google</p>
               </div>
               
               <div className="text-center">
@@ -69,8 +68,8 @@ const HeroSection = () => {
                 <div className="flex items-center justify-center mb-2">
                   <Users className="h-8 w-8 text-primary" />
                 </div>
-                <p className="text-2xl font-bold text-foreground">5000+</p>
-                <p className="text-sm text-muted-foreground">Patients traités</p>
+                <p className="text-2xl font-bold text-foreground">37</p>
+                <p className="text-sm text-muted-foreground">Avis Google</p>
               </div>
               
               <div className="text-center">

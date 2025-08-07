@@ -12,7 +12,7 @@ const Footer = () => {
                 <span className="text-white font-bold text-xl">L</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold">LaserVie</h3>
+                <h3 className="text-xl font-bold">Demain J'arrête</h3>
                 <p className="text-sm text-background/70">Thérapie Laser</p>
               </div>
             </div>
@@ -39,17 +39,17 @@ const Footer = () => {
             <ul className="space-y-2 text-background/80 text-sm">
               <li>
                 <a href="#services" className="hover:text-background transition-colors">
-                  Arrêt du tabac
+                  Pack « Libéré, respiré »
                 </a>
               </li>
               <li>
                 <a href="#services" className="hover:text-background transition-colors">
-                  Arrêt de l'alcool
+                  Pack « Détox »
                 </a>
               </li>
               <li>
                 <a href="#services" className="hover:text-background transition-colors">
-                  Thérapie combinée
+                  Pack « Soyons zen »
                 </a>
               </li>
               <li>
@@ -66,15 +66,15 @@ const Footer = () => {
             <div className="space-y-3 text-background/80 text-sm">
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4" />
-                <span>123 Avenue de la Santé<br />75014 Paris</span>
+                <span>12 Avenue de Verdun<br />93230 Romainville</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4" />
-                <span>01 23 45 67 89</span>
+                <span>01 48 57 63 22</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
-                <span>contact@laserview.fr</span>
+                <span>contact@demainjarrete.com</span>
               </div>
             </div>
           </div>
@@ -104,7 +104,7 @@ const Footer = () => {
         <div className="border-t border-background/20 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-background/60 text-sm">
-              © 2024 LaserVie. Tous droits réservés.
+              © 2024 Demain J'arrête. Tous droits réservés.
             </p>
             <div className="flex space-x-6 text-background/60 text-sm">
               <a href="#" className="hover:text-background transition-colors">

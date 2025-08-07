@@ -18,7 +18,7 @@ const Header = () => {
               <span className="text-white font-bold text-xl">L</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-foreground">LaserVie</h1>
+              <h1 className="text-xl font-bold text-foreground">Demain J'arrête</h1>
               <p className="text-xs text-muted-foreground">Thérapie Laser</p>
             </div>
           </div>
@@ -54,11 +54,11 @@ const Header = () => {
             <div className="hidden lg:flex items-center space-x-4 text-sm text-muted-foreground">
               <div className="flex items-center space-x-1">
                 <Phone className="h-4 w-4" />
-                <span>01 23 45 67 89</span>
+                <span>01 48 57 63 22</span>
               </div>
               <div className="flex items-center space-x-1">
                 <Mail className="h-4 w-4" />
-                <span>contact@laserview.fr</span>
+                <span>contact@demainjarrete.com</span>
               </div>
             </div>
             <Button 

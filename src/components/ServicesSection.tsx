@@ -6,15 +6,21 @@ const ServicesSection = () => {
   const services = [
     {
       icon: Cigarette,
-      title: "Arrêt du tabac",
-      description: "Libérez-vous définitivement de la dépendance au tabac en une seule séance",
-      features: ["Méthode sans douleur", "Résultats immédiats", "Sans substituts nicotiniques"]
+      title: "Pack « Libéré, respiré »",
+      description: "Sevrage tabac, cannabis, et cigarette électronique",
+      features: ["Méthode sans douleur", "Garantie séance supplémentaire", "Résultats dès la première séance"]
     },
     {
       icon: Wine,
-      title: "Arrêt de l'alcool",
-      description: "Retrouvez le contrôle et éliminez l'envie de consommer de l'alcool",
-      features: ["Approche douce", "Accompagnement personnalisé", "Suivi post-traitement"]
+      title: "Pack « Détox »",
+      description: "Sevrage sucre et satiété",
+      features: ["Approche naturelle", "Équilibre alimentaire", "Réduction des envies"]
+    },
+    {
+      icon: Brain,
+      title: "Pack « Soyons zen »", 
+      description: "Traitement de l'insomnie et gestion du stress/anxiété",
+      features: ["Bien-être mental", "Nuits apaisées", "Réduction du stress quotidien"]
     }
   ];
 
@@ -46,15 +52,15 @@ const ServicesSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Nos thérapies laser
+            Pourquoi Choisir Notre Méthode ?
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Une approche révolutionnaire pour vous libérer des addictions, 
-            basée sur la stimulation de points d'acupuncture par laser doux.
+            basée sur la stimulation de points spécifiques par laser doux.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-20">
+        <div className="grid md:grid-cols-3 gap-8 mb-20">
           {services.map((service, index) => (
             <Card key={index} className="border-border shadow-soft hover:shadow-glow transition-all duration-300 bg-gradient-card">
               <CardHeader>
@@ -87,21 +93,22 @@ const ServicesSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
-              Comment fonctionne la thérapie laser ?
+              Comment ça marche ?
             </h3>
             
-            <div className="grid sm:grid-cols-2 gap-6">
-              {benefits.map((benefit, index) => (
-                <div key={index} className="space-y-3">
-                  <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <benefit.icon className="h-5 w-5 text-primary" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-foreground mb-2">{benefit.title}</h4>
-                    <p className="text-sm text-muted-foreground">{benefit.description}</p>
-                  </div>
-                </div>
-              ))}
+            <div className="space-y-6">
+              <div>
+                <h4 className="font-semibold text-foreground mb-2 text-lg">Consultation initiale</h4>
+                <p className="text-muted-foreground">Une consultation personnalisée pour comprendre vos besoins et définir une approche adaptée à votre situation.</p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-foreground mb-2 text-lg">Stimulation laser</h4>
+                <p className="text-muted-foreground">À l'aide d'un laser doux et indolore, nous stimulons des points spécifiques sur votre corps pour favoriser l'équilibre.</p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-foreground mb-2 text-lg">Suivi personnalisé</h4>
+                <p className="text-muted-foreground">Un accompagnement avec un suivi adapté pour garantir votre succès et un changement durable.</p>
+              </div>
             </div>
           </div>
 

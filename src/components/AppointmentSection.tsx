@@ -138,10 +138,11 @@ const AppointmentSection = () => {
                       <SelectValue placeholder="Sélectionnez votre thérapie" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="tabac">Arrêt du tabac</SelectItem>
-                      <SelectItem value="alcool">Arrêt de l'alcool</SelectItem>
-                      <SelectItem value="both">Tabac + Alcool</SelectItem>
-                      <SelectItem value="other">Autre addiction</SelectItem>
+                      <SelectItem value="tabac">Pack « Libéré, respiré » - Tabac/Cannabis</SelectItem>
+                      <SelectItem value="detox">Pack « Détox » - Sucre/Satiété</SelectItem>
+                      <SelectItem value="zen">Pack « Soyons zen » - Stress/Insomnie</SelectItem>
+                      <SelectItem value="douleur">Pack « Fini de souffrir » - Douleurs</SelectItem>
+                      <SelectItem value="cupping">Pack « Cupping » - Thérapie complémentaire</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
@@ -211,7 +212,7 @@ const AppointmentSection = () => {
                   <MapPin className="h-5 w-5 text-primary mt-1" />
                   <div>
                     <p className="font-medium text-foreground">Adresse</p>
-                    <p className="text-muted-foreground">123 Avenue de la Santé<br />75014 Paris</p>
+                    <p className="text-muted-foreground">12 Avenue de Verdun<br />93230 Romainville</p>
                   </div>
                 </div>
 
@@ -219,7 +220,7 @@ const AppointmentSection = () => {
                   <Phone className="h-5 w-5 text-primary mt-1" />
                   <div>
                     <p className="font-medium text-foreground">Téléphone</p>
-                    <p className="text-muted-foreground">01 23 45 67 89</p>
+                    <p className="text-muted-foreground">01 48 57 63 22</p>
                   </div>
                 </div>
 
@@ -227,7 +228,7 @@ const AppointmentSection = () => {
                   <Mail className="h-5 w-5 text-primary mt-1" />
                   <div>
                     <p className="font-medium text-foreground">Email</p>
-                    <p className="text-muted-foreground">contact@laserview.fr</p>
+                    <p className="text-muted-foreground">contact@demainjarrete.com</p>
                   </div>
                 </div>
 

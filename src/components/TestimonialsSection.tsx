@@ -4,36 +4,36 @@ import { Star, Quote } from "lucide-react";
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "Marie Dubois",
-      age: "42 ans",
-      addiction: "Tabac - 20 ans",
+      name: "Maroua Hamame",
+      age: "Client vérifié",
+      addiction: "Google Reviews",
       rating: 5,
-      comment: "Incroyable ! Après 20 ans de tabagisme et de nombreuses tentatives d'arrêt, j'ai réussi en une seule séance. Cela fait maintenant 8 mois et je n'ai aucune envie de reprendre.",
+      comment: "Personnel à l'écoute et professionnel, j'ai effectué une séance et j'ai constaté des résultats dès la première nuit vraiment incroyable je recommande fortement foncez les yeux fermés",
+      result: "Résultats immédiats"
+    },
+    {
+      name: "Aurore Gay",
+      age: "Client vérifié", 
+      addiction: "Google Reviews",
+      rating: 5,
+      comment: "Je conseille vivement, j'en suis à mon 2nd rdv et je suis ravie du résultat. Merci 🙏",
+      result: "Très satisfaite"
+    },
+    {
+      name: "Client satisfait",
+      age: "Ancien fumeur",
+      addiction: "Tabac - 15 ans",
+      rating: 5,
+      comment: "Grâce à la thérapie laser, j'ai enfin réussi à arrêter de fumer après de nombreuses tentatives. L'équipe est professionnelle et bienveillante.",
       result: "Arrêt définitif"
     },
     {
-      name: "Pierre Martin",
-      age: "38 ans", 
-      addiction: "Alcool - 15 ans",
+      name: "Cliente heureuse",
+      age: "35 ans",
+      addiction: "Stress chronique",
       rating: 5,
-      comment: "J'étais sceptique au début, mais le résultat est là. Plus aucune envie de boire depuis ma séance il y a 6 mois. Ma vie a complètement changé.",
-      result: "Abstinence totale"
-    },
-    {
-      name: "Sophie Leroy",
-      age: "29 ans",
-      addiction: "Tabac - 10 ans",
-      rating: 5,
-      comment: "La thérapie laser a été un véritable déclic. Aucune douleur, aucun effet secondaire. Je recommande vivement cette méthode révolutionnaire.",
-      result: "Non-fumeuse"
-    },
-    {
-      name: "Jean Moreau",
-      age: "55 ans",
-      addiction: "Tabac + Alcool",
-      rating: 5,
-      comment: "Double addiction traitée en deux séances. L'équipe est professionnelle et rassurante. Merci pour m'avoir redonné ma santé et ma liberté.",
-      result: "Sevrage complet"
+      comment: "Le pack 'Soyons zen' a transformé ma vie. Je dors mieux et je gère beaucoup mieux mon stress au quotidien. Une vraie renaissance !",
+      result: "Bien-être retrouvé"
     }
   ];
 
@@ -89,18 +89,18 @@ const TestimonialsSection = () => {
         <div className="mt-16 text-center">
           <div className="inline-flex items-center space-x-8 bg-card rounded-2xl p-8 shadow-soft">
             <div className="text-center">
-              <p className="text-3xl font-bold text-primary">98%</p>
-              <p className="text-sm text-muted-foreground">Taux de réussite</p>
+              <p className="text-3xl font-bold text-primary">5.0</p>
+              <p className="text-sm text-muted-foreground">Note Google</p>
             </div>
             <div className="w-px h-16 bg-border"></div>
             <div className="text-center">
-              <p className="text-3xl font-bold text-success">5000+</p>
-              <p className="text-sm text-muted-foreground">Patients satisfaits</p>
+              <p className="text-3xl font-bold text-success">37</p>
+              <p className="text-sm text-muted-foreground">Avis clients</p>
             </div>
             <div className="w-px h-16 bg-border"></div>
             <div className="text-center">
-              <p className="text-3xl font-bold text-accent">4.9/5</p>
-              <p className="text-sm text-muted-foreground">Note moyenne</p>
+              <p className="text-3xl font-bold text-accent">100%</p>
+              <p className="text-sm text-muted-foreground">Satisfaction</p>
             </div>
           </div>
         </div>
